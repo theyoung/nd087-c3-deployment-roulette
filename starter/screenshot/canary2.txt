@@ -1,0 +1,17 @@
+steven@steven-ubuntu:~/vscode/nd087-c3-deployment-roulette/starter/apps/canary$ kubectl get pods -A
+NAMESPACE     NAME                           READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-cxw8d                 1/1     Running   0          37h
+kube-system   aws-node-rv7rl                 1/1     Running   0          37h
+kube-system   coredns-f47955f89-98fcc        1/1     Running   0          37h
+kube-system   coredns-f47955f89-h4mq2        1/1     Running   0          37h
+kube-system   kube-proxy-c94lh               1/1     Running   0          37h
+kube-system   kube-proxy-kpg4h               1/1     Running   0          37h
+udacity       blue-8475cbdf46-4w7qm          1/1     Running   0          52m
+udacity       blue-8475cbdf46-gm9pk          1/1     Running   0          52m
+udacity       blue-8475cbdf46-zrbxl          1/1     Running   0          52m
+udacity       canary-v1-64598c676f-l668z     1/1     Running   0          53m
+udacity       canary-v1-64598c676f-vm9p7     1/1     Running   0          53m
+udacity       canary-v2-5dc9c56687-rnvvg     1/1     Running   0          7m7s
+udacity       canary-v2-5dc9c56687-wzg5q     1/1     Running   0          7m7s
+udacity       debug                          1/1     Running   0          8m8s
+udacity       hello-world-794458d64d-4tvdw   1/1     Running   0          25m
