@@ -1,0 +1,37 @@
+steven@steven-ubuntu:~/vscode/nd087-c3-deployment-roulette/starter/infra$ kubectl get pod -A
+NAMESPACE     NAME                                  READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-cxw8d                        1/1     Running   0          38h
+kube-system   aws-node-rml2g                        1/1     Running   0          2m41s
+kube-system   aws-node-rv7rl                        1/1     Running   0          38h
+kube-system   coredns-f47955f89-98fcc               1/1     Running   0          38h
+kube-system   coredns-f47955f89-h4mq2               1/1     Running   0          38h
+kube-system   kube-proxy-c94lh                      1/1     Running   0          38h
+kube-system   kube-proxy-kpg4h                      1/1     Running   0          38h
+kube-system   kube-proxy-tkfcd                      1/1     Running   0          2m41s
+udacity       bloaty-mcbloatface-58c98b98d8-2szzn   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-6shzz   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-6sv2s   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-866p8   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-8lxjl   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-98l5z   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-cnqlf   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-dz7fd   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-gftz8   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-jj2lz   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-mr89c   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-nhh4m   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-nkxzl   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-pl9w5   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-pstxt   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-tcj7w   1/1     Running   0          15m
+udacity       bloaty-mcbloatface-58c98b98d8-xbz5w   1/1     Running   0          15m
+udacity       canary-v1-64598c676f-l668z            1/1     Running   0          133m
+udacity       canary-v1-64598c676f-vm9p7            1/1     Running   0          133m
+udacity       canary-v2-5dc9c56687-rnvvg            1/1     Running   0          88m
+udacity       canary-v2-5dc9c56687-wzg5q            1/1     Running   0          88m
+udacity       debug                                 1/1     Running   0          89m
+udacity       green-5cdd96c9b4-5b2h4                1/1     Running   0          52m
+udacity       green-5cdd96c9b4-g2rsp                1/1     Running   0          52m
+udacity       green-5cdd96c9b4-zrxjx                1/1     Running   0          52m
+udacity       hello-world-794458d64d-4tvdw          1/1     Running   0          106m
+steven@steven-ubuntu:~/vscode/nd087-c3-deployment-roulette/starter/infra$ 
